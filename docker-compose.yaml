@@ -4,7 +4,7 @@ services:
   sshwifty:
     image: sshwifty:dev
     container_name: sshwifty
-    user: "sshwifty:sshwifty"
+    user: "niruix:niruix"
     build: ./
     restart: always
     # environment:
